@@ -424,3 +424,15 @@ nav .mbr-section-btn {
 	top: 0;
 	left: -2400px;
 }
+
+/*my style*/
+
+.item-image {
+  width: 100%;
+  height: 330px;
+  overflow: hidden;
+}
+
+.item-image img {
+  height: auto;
+}
