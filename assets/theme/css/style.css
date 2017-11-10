@@ -408,7 +408,11 @@ nav .mbr-section-btn {
   .menu .navbar-toggleable-sm .navbar-nav {
     display: -webkit-box;
     display: -webkit-flex;
-    display: -ms-flexbox; } }
+    display: -ms-flexbox; 
+  } 
+}
+
+
 @media (min-width: 992px) {
   .menu .navbar-nav.nav-dropdown {
     display: -webkit-flex; }
@@ -435,4 +439,39 @@ nav .mbr-section-btn {
 
 .item-image img {
   height: auto;
+}
+/*
+.active {
+  position: relative;
+}
+.active::after {
+  content: " ";
+  position: absolute;
+  top: 98%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #f44336, rgba(0, 0, 255, 0) 100%)
+}
+
+@media (max-width: 991px) {
+  .active::after {
+    content: " ";
+    width: 80px !important;
+    height: 2px;
+    position: absolute;
+    top: 98%;
+    left: 35%;
+    right: 35%;
+    background: -webkit-radial-gradient(50% 50%, ellipse closest-side, #f44336, rgba(0, 0, 255, 0) 100%)
+  }
+}*/
+
+.facebook_like {
+  float: left;
+}
+
+#u_0_2 {
+  color: #fff !important;
 }
