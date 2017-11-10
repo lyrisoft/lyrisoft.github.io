@@ -470,6 +470,12 @@ nav .mbr-section-btn {
 
 .facebook_like {
   float: left;
+  width: auto;
+  margin-top: 10px;
+  margin-right: 5px;
+  height: auto;
+  word-wrap: break-word;
+  box-sizing: border-box;
 }
 
 #u_0_2 {
